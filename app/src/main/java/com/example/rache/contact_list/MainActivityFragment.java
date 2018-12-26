@@ -21,7 +21,7 @@ public class MainActivityFragment extends Fragment {
     private Button deleteButton;
     private ListView contactList;
     private MyAdapter mAdapter;
-    private ArrayList<Contacts> list;
+    private ArrayList<Contacts> list;//
     private DBhelper dBhelper;
     public MainActivityFragment() {
         // Required empty public constructor
